@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abdelrahman - Motion Graphics Portfolio</title>
+  <link rel="stylesheet" href="3030.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <h1 class="logo">Abdelrahman Ashraf</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Animated Gradient Background -->
+  <header id="home">
+    <img src="Screenshot 2024-08-04 045632.png" height="300px" width="200px" >
+    <div class="hero-content">
+      <h2>Motion Graphics &amp; Video Production</h2>
+      <p>Bringing your ideas to life with stunning visuals and animations</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a motion graphics artist specializing in video production and animation.
+        With a passion for visual storytelling and years of experience, I create
+        engaging projects that captivate audiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section with Mobile Slider / Desktop Grid -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="slider-container">
+        <div class="slider">
+          <!-- Slide 1 -->
+          <div class="slide">
+            <video controls poster="thumbnail1.jpg">
+              <source src="protf1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <h3>Talabat motion graphc video</h3>
+          </div>
+          <!-- Slide 2 -->
+          <div class="slide">
+            <video controls poster="thumbnail2.jpg">
+              <source src="e:\my downloads\احترام.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <h3>Education motion graphic video </h3>
+          </div>
+         
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+        <!-- Slider Navigation Buttons (visible on mobile) -->
+        <button class="slider-btn prev">&#10094;</button>
+        <button class="slider-btn next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Interested in collaborating? Let’s get in touch.</p>
+      <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Abdelrahman. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="3030.js"></script>
+</body>
+</html>
